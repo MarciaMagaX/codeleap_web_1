@@ -9,6 +9,7 @@ export function loadPosts(posts: Post[]) {
   }
 }
 
+//comment
 export function createPost(post: Post) {
   return {
     type: PostActionTypes.createPosts,
